@@ -11,6 +11,7 @@ body {
     text-align: center;
     color:#515076;
 }
+
 .products-list {
     list-style-type: none;
     padding: 0;
@@ -19,19 +20,26 @@ body {
 
 .product-card {
     background-color: #F7F7FA;
+    
 }
+
 .main-text {
     font-size: 13px;
     line-height: 18px;
     color: #515076;
 }
-.buy-button {
-    font-size: 20px;
-    line-height: 18px;
+
+
+.button {
     background-color: #515076;
-    color: #FFFFFF;
+    color: #FFF;
     border: 1px solid #000;
     border-radius: 5px;
-}
+    padding: 10px 20px;
+    font-size: 20px;
+    }
+
+.button-green {
+        background-color: #2ecc71;
 
     
