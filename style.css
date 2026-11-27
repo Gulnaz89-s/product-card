@@ -1,13 +1,21 @@
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Montserrat, sans-serif;
     font-size: 13px;
+    line-height: 18px;
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
 }
 
-.title {
+#title {
     font-size: 70px;
     font-weight: 400;
     line-height: 78px;
-    margin: 0;
+    margin: 110px;
     text-align: center;
     color:#515076;
 }
@@ -15,32 +23,87 @@ body {
 .products-list {
     list-style-type: none;
     padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 1110px;
+    justify-content: center;
+    }
+
+.li-style {
+        display: inline-block;
+        padding: 25px;
+        margin: 45px;
+        width: 340px;
+        background-color: #F7F7FA;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
     margin: 0;
+    color: #515076;
 }
 
-.product-card {
-    background-color: #F7F7FA;
-    
-}
-
-.main-text {
+.main-text,.compound,.compound-list {
     font-size: 13px;
     line-height: 18px;
     color: #515076;
 }
 
-
-.button {
-    background-color: #515076;
-    color: #FFF;
-    border: 1px solid #000;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 20px;
-    }
-
-.button-green {
-        background-color: #2ecc71;
+.tag {
+    font-size: 12px;
+    line-height: 24px;
+    color: #a5a3b9;
+    display: block;
+    text-transform: uppercase;
 }
+
+.product-card {
+    background-color: #F7F7FA;
+    width: 340px;
+    padding: 25px;
+}
+
+.price,
+.sum {
+    font-size: 20px;
+    line-height: 24px;
+    color: #515076;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+     margin-top: 25px;
+}
+
+
+.main-text {
+    font-size: 13px;
+    font-weight: 400;
+    font-style: regular;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 0;
+    list-style-position: inside;
+    color: #515076;
+}
+
+.product-price {
+    margin-top: 25px;
+}
+
+.price {
+    font-weight: 290px;
+    line-height: 24px;
+    color: #515076;
+}
+
+
+
 
     
